@@ -1,0 +1,29 @@
+.webfx-popup-notification__wrapper .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+}
+
+.webfx-popup-notification__wrapper .close-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -60%);
+    font-size: 30px;
+}
+
+.webfx-popup-notification__wrapper .close-btn:hover {
+    cursor: pointer;
+}
+
+.webfx-popup-notification__wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 0;
+}
+
+body.admin-bar .webfx-popup-notification__wrapper {
+    top: 32px;
+}
